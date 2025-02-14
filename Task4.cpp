@@ -55,7 +55,7 @@ Student *search(Student *root, int id)
 void inorder(Student *root)
 {
     if (root != NULL)
-    {
+    {   
         inorder(root->left);
         cout << "ID: " << root->id << " | Name: " << root->name << endl;
         inorder(root->right);
